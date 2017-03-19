@@ -14,7 +14,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 
 import com.edwin.zhouyi.R;
-import com.edwin.zhouyi.presenter.SplashPresenter;
+import com.edwin.zhouyi.presenter.MainPresenter;
 
 /**
  * simple description
@@ -22,16 +22,15 @@ import com.edwin.zhouyi.presenter.SplashPresenter;
  *
  * @author xuxiangyu create on 2017/3/19
  */
-public class SplashActivity extends BaseActivity<SplashPresenter> {
+public class MainActivity extends BaseActivity<MainPresenter> {
     @Override
-    protected SplashPresenter newPresenter() {
-        return new SplashPresenter(this);
+    protected MainPresenter newPresenter() {
+        return new MainPresenter(this);
     }
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
-        presenter.prepareData();
+        setContentView(R.layout.activity_main);
     }
 }
