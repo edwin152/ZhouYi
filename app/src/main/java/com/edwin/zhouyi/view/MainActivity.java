@@ -31,6 +31,6 @@ public class MainActivity extends BaseActivity<MainPresenter> {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.view_64_diagrams);
     }
 }

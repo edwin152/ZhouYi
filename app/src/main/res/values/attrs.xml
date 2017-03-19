@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="SingleGua">
-        <attr name="name">
+    <declare-styleable name="DiagramSingle">
+        <attr name="name_single">
             <enum name="qian" value="0" />
             <enum name="kun" value="1" />
             <enum name="zhen" value="2" />
@@ -10,6 +10,12 @@
             <enum name="kan" value="5" />
             <enum name="dui" value="6" />
             <enum name="xun" value="7" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="DiagramDouble">
+        <attr name="name_double">
+            <enum name="qian" value="0" />
         </attr>
     </declare-styleable>
 </resources>

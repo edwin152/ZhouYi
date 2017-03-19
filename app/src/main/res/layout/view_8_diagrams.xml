@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:singleGua="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/yinyangyu"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/yinyangyu"
+        tools:ignore="ContentDescription" />
+
+    <com.edwin.zhouyi.widget.DiagramSingle
+        android:id="@+id/qian"
+        style="@style/diagram_single"
+        android:translationY="-141dp"
+        singleGua:name_single="qian" />
+
+    <com.edwin.zhouyi.widget.DiagramSingle
+        android:id="@+id/kun"
+        style="@style/diagram_single"
+        android:translationY="141dp"
+        singleGua:name_single="kun" />
+
+    <com.edwin.zhouyi.widget.DiagramSingle
+        android:id="@+id/li"
+        style="@style/diagram_single"
+        android:rotation="-90"
+        android:translationX="-141dp"
+        singleGua:name_single="li" />
+
+    <com.edwin.zhouyi.widget.DiagramSingle
+        android:id="@+id/kan"
+        style="@style/diagram_single"
+        android:rotation="90"
+        android:translationX="141dp"
+        singleGua:name_single="kan" />
+
+    <com.edwin.zhouyi.widget.DiagramSingle
+        android:id="@+id/zhen"
+        style="@style/diagram_single"
+        android:rotation="-135"
+        android:translationX="-100dp"
+        android:translationY="100dp"
+        singleGua:name_single="zhen" />
+
+    <com.edwin.zhouyi.widget.DiagramSingle
+        android:id="@+id/gen"
+        style="@style/diagram_single"
+        android:rotation="135"
+        android:translationX="100dp"
+        android:translationY="100dp"
+        singleGua:name_single="gen" />
+
+    <com.edwin.zhouyi.widget.DiagramSingle
+        android:id="@+id/dui"
+        style="@style/diagram_single"
+        android:rotation="-45"
+        android:translationX="-100dp"
+        android:translationY="-100dp"
+        singleGua:name_single="dui" />
+
+    <com.edwin.zhouyi.widget.DiagramSingle
+        android:id="@+id/xun"
+        style="@style/diagram_single"
+        android:rotation="45"
+        android:translationX="100dp"
+        android:translationY="-100dp"
+        singleGua:name_single="xun" />
+
+</RelativeLayout>

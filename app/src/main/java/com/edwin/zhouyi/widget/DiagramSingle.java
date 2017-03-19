@@ -28,33 +28,33 @@ import com.edwin.zhouyi.R;
  *
  * @author xuxiangyu create on 2017/3/19
  */
-public class SingleGua extends FrameLayout {
+public class DiagramSingle extends FrameLayout {
 
-    private ImageView iv_down;
-    private ImageView iv_middle;
     private ImageView iv_top;
+    private ImageView iv_middle;
+    private ImageView iv_down;
 
     private Name name;
 
-    public SingleGua(@NonNull Context context) {
+    public DiagramSingle(@NonNull Context context) {
         this(context, null);
     }
 
-    public SingleGua(@NonNull Context context, @Nullable AttributeSet attrs) {
+    public DiagramSingle(@NonNull Context context, @Nullable AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public SingleGua(@NonNull Context context, @Nullable AttributeSet attrs, @AttrRes int defStyleAttr) {
+    public DiagramSingle(@NonNull Context context, @Nullable AttributeSet attrs, @AttrRes int defStyleAttr) {
         super(context, attrs, defStyleAttr);
-        View.inflate(context, R.layout.view_single_gua, this);
-        iv_down = (ImageView) findViewById(R.id.down);
-        iv_middle = (ImageView) findViewById(R.id.middle);
+        View.inflate(context, R.layout.view_diagram_single, this);
         iv_top = (ImageView) findViewById(R.id.top);
+        iv_middle = (ImageView) findViewById(R.id.middle);
+        iv_down = (ImageView) findViewById(R.id.down);
 
         if (attrs == null)
             return;
-        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.SingleGua);
-        int name = a.getInt(R.styleable.SingleGua_name, 0);
+        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.DiagramSingle);
+        int name = a.getInt(R.styleable.DiagramSingle_name_single, 0);
         setName(Name.parse(name));
         a.recycle();
 

@@ -3,10 +3,15 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar" />
 
-    <style name="single_gua">
-        <item name="android:layout_width">75dp</item>
-        <item name="android:layout_height">75dp</item>
+    <style name="diagram_single">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">64dp</item>
         <item name="android:layout_centerInParent">true</item>
-        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="diagram_double">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_centerInParent">true</item>
     </style>
 </resources>
