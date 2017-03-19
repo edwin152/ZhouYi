@@ -32,7 +32,7 @@ public class DiagramSingle extends FrameLayout {
 
     private ImageView iv_top;
     private ImageView iv_middle;
-    private ImageView iv_down;
+    private ImageView iv_bottom;
 
     private Name name;
 
@@ -49,7 +49,7 @@ public class DiagramSingle extends FrameLayout {
         View.inflate(context, R.layout.view_diagram_single, this);
         iv_top = (ImageView) findViewById(R.id.top);
         iv_middle = (ImageView) findViewById(R.id.middle);
-        iv_down = (ImageView) findViewById(R.id.down);
+        iv_bottom = (ImageView) findViewById(R.id.bottom);
 
         if (attrs == null)
             return;
@@ -66,42 +66,42 @@ public class DiagramSingle extends FrameLayout {
             case QIAN:
                 iv_top.setImageResource(R.drawable.yangyao);
                 iv_middle.setImageResource(R.drawable.yangyao);
-                iv_down.setImageResource(R.drawable.yangyao);
+                iv_bottom.setImageResource(R.drawable.yangyao);
                 break;
             case KUN:
                 iv_top.setImageResource(R.drawable.yinyao);
                 iv_middle.setImageResource(R.drawable.yinyao);
-                iv_down.setImageResource(R.drawable.yinyao);
+                iv_bottom.setImageResource(R.drawable.yinyao);
                 break;
             case ZHEN:
                 iv_top.setImageResource(R.drawable.yinyao);
                 iv_middle.setImageResource(R.drawable.yinyao);
-                iv_down.setImageResource(R.drawable.yangyao);
+                iv_bottom.setImageResource(R.drawable.yangyao);
                 break;
             case GEN:
                 iv_top.setImageResource(R.drawable.yangyao);
                 iv_middle.setImageResource(R.drawable.yinyao);
-                iv_down.setImageResource(R.drawable.yinyao);
+                iv_bottom.setImageResource(R.drawable.yinyao);
                 break;
             case LI:
                 iv_top.setImageResource(R.drawable.yangyao);
                 iv_middle.setImageResource(R.drawable.yinyao);
-                iv_down.setImageResource(R.drawable.yangyao);
+                iv_bottom.setImageResource(R.drawable.yangyao);
                 break;
             case KAN:
                 iv_top.setImageResource(R.drawable.yinyao);
                 iv_middle.setImageResource(R.drawable.yangyao);
-                iv_down.setImageResource(R.drawable.yinyao);
+                iv_bottom.setImageResource(R.drawable.yinyao);
                 break;
             case DUI:
                 iv_top.setImageResource(R.drawable.yinyao);
                 iv_middle.setImageResource(R.drawable.yangyao);
-                iv_down.setImageResource(R.drawable.yangyao);
+                iv_bottom.setImageResource(R.drawable.yangyao);
                 break;
             case XUN:
                 iv_top.setImageResource(R.drawable.yangyao);
                 iv_middle.setImageResource(R.drawable.yangyao);
-                iv_down.setImageResource(R.drawable.yinyao);
+                iv_bottom.setImageResource(R.drawable.yinyao);
                 break;
         }
     }

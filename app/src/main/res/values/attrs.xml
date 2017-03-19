@@ -13,9 +13,26 @@
         </attr>
     </declare-styleable>
 
+    <declare-styleable name="DiagramSingleDescribe">
+        <attr name="topDescribe" format="string" />
+        <attr name="middleDescribe" format="string" />
+        <attr name="bottomDescribe" format="string" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+    </declare-styleable>
+
     <declare-styleable name="DiagramDouble">
         <attr name="name_double">
             <enum name="qian" value="0" />
         </attr>
+    </declare-styleable>
+
+    <declare-styleable name="DiagramDoubleDescribe">
+        <attr name="firstText" format="string" />
+        <attr name="secondText" format="string" />
+        <attr name="thirdText" format="string" />
+        <attr name="fourthText" format="string" />
+        <attr name="fifthText" format="string" />
+        <attr name="sixthText" format="string" />
     </declare-styleable>
 </resources>

@@ -1,5 +1,13 @@
 <resources>
-    <string name="app_name">Zhouyi</string>
+    <string name="app_name">周易</string>
 
-
+    <string name="qian">乾</string>
+    <string name="qian_title">乾为天，下乾上乾。元亨，利贞。</string>
+    <string name="qian_shangjiu">上九    亢龙有悔。</string>
+    <string name="qian_jiuwu">九五    飞龙在天，利见大人。</string>
+    <string name="qian_jiusi">九四    或跃在渊，无咎。</string>
+    <string name="qian_jiusan">九三    君子终日乾乾，夕惕若厉，无咎。</string>
+    <string name="qian_jiuer">九二    见龙在田，利见大人。</string>
+    <string name="qian_chujiu">初九    潜龙勿用。</string>
+    <string name="qian_yongjiu">用九    见群龙无首，吉。</string>
 </resources>
