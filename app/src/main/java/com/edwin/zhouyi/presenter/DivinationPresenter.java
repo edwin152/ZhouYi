@@ -19,10 +19,10 @@ public class DivinationPresenter extends BasePresenter {
     }
 
     public void divination(int _1, int _2, int _3) {
-        int down = _1 % 8;
-        int up = _2 % 8;
-        int yao = _3 % 6;
-        Toast.makeText(activity, "down : " + down + "up : " + up + "yao : " + yao, Toast.LENGTH_SHORT).show();
+        int down = _1 % 8 + 1;
+        int up = _2 % 8 + 1;
+        int yao = _3 % 6 + 1;
+        Toast.makeText(activity, "down : " + down + ", up : " + up + ", yao : " + yao, Toast.LENGTH_LONG).show();
     }
 
 }

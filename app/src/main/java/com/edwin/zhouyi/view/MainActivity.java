@@ -37,7 +37,7 @@ public class MainActivity extends BaseActivity<MainPresenter> {
     }
 
     public void toCongenitalGossip(View v) {
-
+        startActivity(new Intent(this, CongenitalGossipActivity.class));
     }
 
     public void toDivination(View v) {

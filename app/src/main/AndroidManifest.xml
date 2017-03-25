@@ -22,6 +22,7 @@
 
         <activity android:name=".view.MainActivity" />
         <activity android:name=".view.DivinationActivity" />
+        <activity android:name=".view.CongenitalGossipActivity" />
     </application>
 
 </manifest>

@@ -23,7 +23,8 @@ import com.edwin.zhouyi.view.SplashActivity;
  */
 public class SplashPresenter extends BasePresenter {
 
-    private static final long WAIT_TIME = 3000;
+    @SuppressWarnings("PointlessArithmeticExpression")
+    private static final long WAIT_TIME = 0 * 1000;
 
     private SplashActivity activity;
     private Handler handler;

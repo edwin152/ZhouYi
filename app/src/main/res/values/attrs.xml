@@ -3,13 +3,13 @@
     <declare-styleable name="DiagramSingle">
         <attr name="name_single">
             <enum name="qian" value="0" />
-            <enum name="kun" value="1" />
-            <enum name="zhen" value="2" />
-            <enum name="gen" value="3" />
-            <enum name="li" value="4" />
+            <enum name="dui" value="1" />
+            <enum name="li" value="2" />
+            <enum name="zhen" value="3" />
+            <enum name="xun" value="4" />
             <enum name="kan" value="5" />
-            <enum name="dui" value="6" />
-            <enum name="xun" value="7" />
+            <enum name="gen" value="6" />
+            <enum name="kun" value="7" />
         </attr>
     </declare-styleable>
 
