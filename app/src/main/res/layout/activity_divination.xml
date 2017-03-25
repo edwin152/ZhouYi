@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textSize="30sp"
+            tools:ignore="LabelFor,NestedWeights" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="random1"
+            android:text="@string/random" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textSize="30sp"
+            tools:ignore="LabelFor,NestedWeights" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="random2"
+            android:text="@string/random" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textSize="30sp"
+            tools:ignore="LabelFor,NestedWeights" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="random3"
+            android:text="@string/random" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:onClick="divination"
+        android:text="@string/divination"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="25sp" />
+
+</LinearLayout>

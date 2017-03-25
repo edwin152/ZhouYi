@@ -1,13 +1,46 @@
 <resources>
     <string name="app_name">周易</string>
+    <string name="congenital_gossip">先天八卦</string>
+    <string name="acquired_gossip">后天八卦</string>
+    <string name="divination">占卜</string>
+    <string name="random">随机</string>
 
-    <string name="qian">乾</string>
-    <string name="qian_title">乾为天，下乾上乾。元亨，利贞。</string>
-    <string name="qian_shangjiu">上九    亢龙有悔。</string>
-    <string name="qian_jiuwu">九五    飞龙在天，利见大人。</string>
-    <string name="qian_jiusi">九四    或跃在渊，无咎。</string>
-    <string name="qian_jiusan">九三    君子终日乾乾，夕惕若厉，无咎。</string>
-    <string name="qian_jiuer">九二    见龙在田，利见大人。</string>
-    <string name="qian_chujiu">初九    潜龙勿用。</string>
-    <string name="qian_yongjiu">用九    见群龙无首，吉。</string>
+    <!--1、乾卦-->
+    <array name="qian">
+        <item>乾</item>
+        <item>下乾上乾：元亨，利贞。</item>
+        <item>象曰：天行健，君子以自强不息。</item>
+        <item>初九 潜龙勿用。</item>
+        <item>象曰：潜龙勿用，阳在下也。</item>
+        <item>九二 见龙在田，利见大人。</item>
+        <item>象曰：见龙在田，德施普也。</item>
+        <item>九三 君子终日乾乾，夕惕若厉，无咎。</item>
+        <item>象曰：终日乾乾，反复道也。</item>
+        <item>九四 或跃在渊，无咎。</item>
+        <item>象曰：或跃在渊，进无咎也。</item>
+        <item>九五 飞龙在天，利见大人。</item>
+        <item>象曰：飞龙在天，大人造也。</item>
+        <item>上九 亢龙有悔。</item>
+        <item>象曰：亢龙有悔，盈不可久也。</item>
+    </array>
+
+
+    <!--44、姤卦-->
+    <array name="gou">
+        <item>姤</item>
+        <item>下巽上乾：女壮，勿用取女。</item>
+        <item>象曰：天下有风，姤。后以施命诰四方。</item>
+        <item>初六 系于金柅，贞吉。有攸往，见凶。羸豕孚蹢躅。</item>
+        <item>象曰：系于金柅，柔道牵也。</item>
+        <item>九二 包有鱼，无咎，不利宾。</item>
+        <item>象曰：包有鱼，义不及宾也。</item>
+        <item>九三 臀无肤，其行次且。厉，无大咎。</item>
+        <item>象曰：其行次且，行未牵也。</item>
+        <item>九四 包无鱼，起凶。</item>
+        <item>象曰：无鱼之凶，远民也。</item>
+        <item>九五 以杞包瓜，含章，有陨自天。</item>
+        <item>象曰：九五含章，中正也；有陨自天，志不舍命也。</item>
+        <item>上九 姤其角，吝，无咎。</item>
+        <item>象曰：姤其角，上穷吝也。</item>
+    </array>
 </resources>

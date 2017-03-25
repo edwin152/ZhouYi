@@ -21,6 +21,7 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 
 import com.edwin.zhouyi.R;
+import com.edwin.zhouyi.enums.Diagram8;
 
 /**
  * simple description
@@ -34,7 +35,7 @@ public class DiagramSingle extends FrameLayout {
     private ImageView iv_middle;
     private ImageView iv_bottom;
 
-    private Name name;
+    private Diagram8 name;
 
     public DiagramSingle(@NonNull Context context) {
         this(context, null);
@@ -55,12 +56,14 @@ public class DiagramSingle extends FrameLayout {
             return;
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.DiagramSingle);
         int name = a.getInt(R.styleable.DiagramSingle_name_single, 0);
-        setName(Name.parse(name));
+        setName(Diagram8.parse(name));
         a.recycle();
 
     }
 
-    public void setName(Name name) {
+    public void setName(Diagram8 name) {
+        if (name == null)
+            return;
         this.name = name;
         switch (name) {
             case QIAN:
@@ -106,25 +109,8 @@ public class DiagramSingle extends FrameLayout {
         }
     }
 
-    public Name getName() {
+    public Diagram8 getName() {
         return name;
     }
 
-    public enum Name {
-        QIAN,
-        KUN,
-        ZHEN,
-        GEN,
-        LI,
-        KAN,
-        DUI,
-        XUN;
-
-        public static Name parse(int i) {
-            Name[] names = values();
-            if (i >= names.length || i < 0)
-                return QIAN;
-            return names[i];
-        }
-    }
 }
