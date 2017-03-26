@@ -7,6 +7,7 @@
 
     <!--1、乾卦-->
     <array name="qian">
+        <item>1</item>
         <item>乾</item>
         <item>下乾上乾：元亨，利贞。</item>
         <item>象曰：天行健，君子以自强不息。</item>
@@ -24,9 +25,29 @@
         <item>象曰：亢龙有悔，盈不可久也。</item>
     </array>
 
+    <!--27、颐卦-->
+    <array name="yi">
+        <item>27</item>
+        <item>颐</item>
+        <item>下震上艮：贞吉。观颐，自求口实。</item>
+        <item>象曰：山下有雷，颐。君子以慎言语，节饮食。</item>
+        <item>初九 舍尔灵龟，观我朵颐，凶。</item>
+        <item>象曰：观我朵颐，亦不足贵也。</item>
+        <item>九二 颠颐，拂经；于丘颐，征凶。</item>
+        <item>象曰：六二征凶，行失类也。</item>
+        <item>九三 拂颐，贞凶。十年勿用，无攸利。</item>
+        <item>象曰：十年勿用，大道悖也。</item>
+        <item>九四 颠颐，吉。虎视眈眈，其遇逐逐，五咎。</item>
+        <item>象曰：颠颐之吉，上施光也。</item>
+        <item>九五 拂经，居贞吉。不可涉大川。</item>
+        <item>象曰：局贞之吉，顺以从上也。</item>
+        <item>上九 由颐，厉吉。利涉大川。</item>
+        <item>象曰：由颐厉吉，大有庆也。</item>
+    </array>
 
     <!--44、姤卦-->
     <array name="gou">
+        <item>44</item>
         <item>姤</item>
         <item>下巽上乾：女壮，勿用取女。</item>
         <item>象曰：天下有风，姤。后以施命诰四方。</item>
