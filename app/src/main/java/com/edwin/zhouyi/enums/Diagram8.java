@@ -29,10 +29,4 @@ public enum Diagram8 {
             return null;
         return values()[i];
     }
-
-    public static Diagram8 parse(String name) {
-        if (name == null)
-            return null;
-        return valueOf(name);
-    }
 }

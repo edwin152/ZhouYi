@@ -1,8 +1,5 @@
 package com.edwin.zhouyi.config;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * <describe>
  * </describe>
@@ -21,15 +18,4 @@ public class Config64Gua {
             , new int[]{33, 31, 56, 62, 53, 39, 52, 15}
             , new int[]{12, 45, 35, 16, 20, 8, 23, 2}
     };
-
-    public static void main(String[] arg) {
-        List<Integer> list = new ArrayList<>();
-        for (int i = 0; i < 8; i++) {
-            for (int j = 0; j < 8; j++) {
-                if (list.contains(_64[i][j]))
-                    throw new NullPointerException();
-                list.add(_64[i][j]);
-            }
-        }
-    }
 }
