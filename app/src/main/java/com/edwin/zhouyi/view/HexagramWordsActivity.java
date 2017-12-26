@@ -6,22 +6,22 @@ import android.widget.TextView;
 
 import com.edwin.lib.mvp.MVPActivity;
 import com.edwin.zhouyi.R;
-import com.edwin.zhouyi.enums.Diagram8;
-import com.edwin.zhouyi.presenter.SixtyFourPresenter;
-import com.edwin.zhouyi.widget.DiagramSingle;
+import com.edwin.zhouyi.enums.Diagram;
+import com.edwin.zhouyi.presenter.HexagramWordsPresenter;
+import com.edwin.zhouyi.widget.DiagramView;
 
 import java.util.List;
 
 /**
- * simple describe
+ * simple describe 爻词
  *
  * @author edwin
  * @since 26/12/2017
  */
-public class SixtyFourActivity extends MVPActivity<SixtyFourPresenter> {
+public class HexagramWordsActivity extends MVPActivity<HexagramWordsPresenter> {
 
-    private DiagramSingle ds_above;
-    private DiagramSingle ds_below;
+    private DiagramView ds_above;
+    private DiagramView ds_below;
     private TextView tv_mainTitle;
     private TextView tv_mainTitleDescribe;
     private TextView tv_mainTitleDescribeXiang;
@@ -40,8 +40,8 @@ public class SixtyFourActivity extends MVPActivity<SixtyFourPresenter> {
     private TextView tv_yao;
 
     @Override
-    protected SixtyFourPresenter newPresenter() {
-        return new SixtyFourPresenter(this);
+    protected HexagramWordsPresenter newPresenter() {
+        return new HexagramWordsPresenter(this);
     }
 
     @Override
@@ -96,26 +96,26 @@ public class SixtyFourActivity extends MVPActivity<SixtyFourPresenter> {
         tv_yao.setText(num.toString());
     }
 
-    private Diagram8 parseName(String name) {
+    private Diagram parseName(String name) {
         switch (name) {
             case "乾":
-                return Diagram8.QIAN;
+                return Diagram.QIAN;
             case "坤":
-                return Diagram8.KUN;
+                return Diagram.KUN;
             case "震":
-                return Diagram8.ZHEN;
+                return Diagram.ZHEN;
             case "艮":
-                return Diagram8.GEN;
+                return Diagram.GEN;
             case "坎":
-                return Diagram8.KAN;
+                return Diagram.KAN;
             case "离":
-                return Diagram8.LI;
+                return Diagram.LI;
             case "兑":
-                return Diagram8.DUI;
+                return Diagram.DUI;
             case "巽":
-                return Diagram8.XUN;
+                return Diagram.XUN;
             default:
-                return Diagram8.QIAN;
+                return Diagram.QIAN;
         }
     }
 

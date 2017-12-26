@@ -17,7 +17,7 @@
             android:layout_height="67dp"
             android:orientation="vertical">
 
-            <com.edwin.zhouyi.widget.DiagramSingle
+            <com.edwin.zhouyi.widget.DiagramView
                 android:id="@+id/above"
                 android:layout_width="wrap_content"
                 android:layout_height="30dp" />
@@ -27,7 +27,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="1" />
 
-            <com.edwin.zhouyi.widget.DiagramSingle
+            <com.edwin.zhouyi.widget.DiagramView
                 android:id="@+id/below"
                 android:layout_width="wrap_content"
                 android:layout_height="30dp" />

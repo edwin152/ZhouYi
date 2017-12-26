@@ -24,6 +24,7 @@ import com.edwin.zhouyi.presenter.SplashPresenter;
  * @since 26/12/2017
  */
 public class SplashActivity extends MVPActivity<SplashPresenter> {
+
     @Override
     protected SplashPresenter newPresenter() {
         return new SplashPresenter(this);
@@ -33,6 +34,5 @@ public class SplashActivity extends MVPActivity<SplashPresenter> {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-        getPresenter().prepareData();
     }
 }

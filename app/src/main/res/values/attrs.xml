@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="DiagramSingle">
+    <declare-styleable name="DiagramView">
         <attr name="name_single">
             <enum name="qian" value="0" />
             <enum name="dui" value="1" />

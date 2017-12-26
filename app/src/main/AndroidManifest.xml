@@ -7,7 +7,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/yinyangyu"
+        android:icon="@drawable/yin_yang_fish"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
@@ -22,8 +22,8 @@
 
         <activity android:name=".view.MainActivity" />
         <activity android:name=".view.DivinationActivity" />
-        <activity android:name=".view.CongenitalGossipActivity" />
-        <activity android:name=".view.SixtyFourActivity" />
+        <activity android:name=".view.EarlyEightDiagramActivity" />
+        <activity android:name=".view.HexagramWordsActivity" />
     </application>
 
 </manifest>

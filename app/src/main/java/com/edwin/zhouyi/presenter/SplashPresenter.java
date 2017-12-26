@@ -27,15 +27,15 @@ public class SplashPresenter extends MVPPresenter {
 
     @Override
     public void start() {
-
+        prepareData();
     }
 
-    public void prepareData() {
+    private void prepareData() {
         new Thread(new Runnable() {
             @Override
             public void run() {
                 long startTime = System.currentTimeMillis();
-                prepare();
+                prepareInBackground();
                 long endTime = System.currentTimeMillis();
                 long time = endTime - startTime;
                 if (time < WAIT_TIME) {
@@ -47,13 +47,14 @@ public class SplashPresenter extends MVPPresenter {
                     @Override
                     public void run() {
                         activity.startActivity(new Intent(activity, MainActivity.class));
+                        activity.finish();
                     }
                 }, time);
             }
         }).start();
     }
 
-    private void prepare() {
+    private void prepareInBackground() {
 
     }
 }

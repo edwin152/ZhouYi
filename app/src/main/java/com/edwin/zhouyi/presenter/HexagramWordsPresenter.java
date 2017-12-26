@@ -3,7 +3,7 @@ package com.edwin.zhouyi.presenter;
 import android.content.res.AssetManager;
 
 import com.edwin.lib.mvp.MVPPresenter;
-import com.edwin.zhouyi.view.SixtyFourActivity;
+import com.edwin.zhouyi.view.HexagramWordsActivity;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -13,16 +13,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * simple describe
+ * simple describe 爻词
  *
  * @author edwin
  * @since 26/12/2017
  */
-public class SixtyFourPresenter extends MVPPresenter {
+public class HexagramWordsPresenter extends MVPPresenter {
 
-    private SixtyFourActivity activity;
+    private HexagramWordsActivity activity;
 
-    public SixtyFourPresenter(SixtyFourActivity activity) {
+    public HexagramWordsPresenter(HexagramWordsActivity activity) {
         this.activity = activity;
     }
 

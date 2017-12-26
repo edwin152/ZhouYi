@@ -28,7 +28,7 @@ public class MainActivity extends MVPActivity<MainPresenter> {
     }
 
     public void toCongenitalGossip(View v) {
-        startActivity(new Intent(this, CongenitalGossipActivity.class));
+        startActivity(new Intent(this, EarlyEightDiagramActivity.class));
     }
 
     public void toDivination(View v) {

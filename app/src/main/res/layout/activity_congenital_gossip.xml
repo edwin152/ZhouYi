@@ -12,17 +12,17 @@
         android:layout_height="175dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:src="@drawable/yinyangyu"
+        android:src="@drawable/yin_yang_fish"
         tools:ignore="ContentDescription" />
 
-    <com.edwin.zhouyi.widget.DiagramSingle
+    <com.edwin.zhouyi.widget.DiagramView
         android:id="@+id/qian"
         style="@style/diagram_single"
         android:onClick="qianClick"
         android:translationY="-141dp"
         singleGua:name_single="qian" />
 
-    <com.edwin.zhouyi.widget.DiagramSingle
+    <com.edwin.zhouyi.widget.DiagramView
         android:id="@+id/dui"
         style="@style/diagram_single"
         android:onClick="duiClick"
@@ -31,7 +31,7 @@
         android:translationY="-100dp"
         singleGua:name_single="dui" />
 
-    <com.edwin.zhouyi.widget.DiagramSingle
+    <com.edwin.zhouyi.widget.DiagramView
         android:id="@+id/li"
         style="@style/diagram_single"
         android:onClick="liClick"
@@ -39,7 +39,7 @@
         android:translationX="-141dp"
         singleGua:name_single="li" />
 
-    <com.edwin.zhouyi.widget.DiagramSingle
+    <com.edwin.zhouyi.widget.DiagramView
         android:id="@+id/zhen"
         style="@style/diagram_single"
         android:onClick="zhenClick"
@@ -48,7 +48,7 @@
         android:translationY="100dp"
         singleGua:name_single="zhen" />
 
-    <com.edwin.zhouyi.widget.DiagramSingle
+    <com.edwin.zhouyi.widget.DiagramView
         android:id="@+id/xun"
         style="@style/diagram_single"
         android:onClick="xunClick"
@@ -57,7 +57,7 @@
         android:translationY="-100dp"
         singleGua:name_single="xun" />
 
-    <com.edwin.zhouyi.widget.DiagramSingle
+    <com.edwin.zhouyi.widget.DiagramView
         android:id="@+id/kan"
         style="@style/diagram_single"
         android:onClick="kanClick"
@@ -65,7 +65,7 @@
         android:translationX="141dp"
         singleGua:name_single="kan" />
 
-    <com.edwin.zhouyi.widget.DiagramSingle
+    <com.edwin.zhouyi.widget.DiagramView
         android:id="@+id/gen"
         style="@style/diagram_single"
         android:onClick="genClick"
@@ -74,7 +74,7 @@
         android:translationY="100dp"
         singleGua:name_single="gen" />
 
-    <com.edwin.zhouyi.widget.DiagramSingle
+    <com.edwin.zhouyi.widget.DiagramView
         android:id="@+id/kun"
         style="@style/diagram_single"
         android:onClick="kunClick"

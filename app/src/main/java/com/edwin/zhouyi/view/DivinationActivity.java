@@ -11,7 +11,7 @@ import com.edwin.zhouyi.R;
 import com.edwin.zhouyi.presenter.DivinationPresenter;
 
 /**
- * simple describe
+ * simple describe 占卜
  *
  * @author edwin
  * @since 26/12/2017

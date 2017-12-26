@@ -7,19 +7,19 @@ import android.widget.Toast;
 
 import com.edwin.lib.mvp.MVPActivity;
 import com.edwin.zhouyi.R;
-import com.edwin.zhouyi.presenter.CongenitalGossipPresenter;
+import com.edwin.zhouyi.presenter.EarlyEightDiagramPresenter;
 
 /**
- * simple describe
+ * simple describe 先天八卦
  *
  * @author edwin
  * @since 26/12/2017
  */
-public class CongenitalGossipActivity extends MVPActivity<CongenitalGossipPresenter> {
+public class EarlyEightDiagramActivity extends MVPActivity<EarlyEightDiagramPresenter> {
 
     @Override
-    protected CongenitalGossipPresenter newPresenter() {
-        return new CongenitalGossipPresenter(this);
+    protected EarlyEightDiagramPresenter newPresenter() {
+        return new EarlyEightDiagramPresenter(this);
     }
 
     @Override
