@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Rect">
+        <attr name="rect_radius" format="dimension" />
+        <attr name="rect_leftTopRadius" format="dimension" />
+        <attr name="rect_rightTopRadius" format="dimension" />
+        <attr name="rect_rightBottomRadius" format="dimension" />
+        <attr name="rect_leftBottomRadius" format="dimension" />
+        <attr name="rect_strokeWidth" format="dimension" />
+        <attr name="rect_strokeColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="Focus">
+        <attr name="focus_strokeWidth" format="dimension" />
+        <attr name="focus_strokeColor" format="color" />
+        <attr name="focus_scaleRate" format="float" />
+        <attr name="focus_frontAfterFocus" format="boolean" />
+    </declare-styleable>
+</resources>
