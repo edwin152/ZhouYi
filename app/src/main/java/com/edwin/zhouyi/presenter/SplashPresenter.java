@@ -1,14 +1,5 @@
 package com.edwin.zhouyi.presenter;
 
-/**
- * Copyright 2016 Beijing Xinwei, Inc. All rights reserved.
- * History:
- * ------------------------------------------------------------------------------
- * Date    	    |  Who  		|  What
- * 2017/3/19	| xuxiangyu 	| 	create the file
- */
-
-
 import android.content.Intent;
 import android.os.Handler;
 
@@ -16,15 +7,14 @@ import com.edwin.zhouyi.view.MainActivity;
 import com.edwin.zhouyi.view.SplashActivity;
 
 /**
- * simple description
- * detail description
+ * simple describe
  *
- * @author xuxiangyu create on 2017/3/19
+ * @author edwin
+ * @since 26/12/2017
  */
 public class SplashPresenter extends BasePresenter {
 
-    @SuppressWarnings("PointlessArithmeticExpression")
-    private static final long WAIT_TIME = 0 * 1000;
+    private static final long WAIT_TIME = 0;
 
     private SplashActivity activity;
     private Handler handler;
@@ -32,6 +22,11 @@ public class SplashPresenter extends BasePresenter {
     public SplashPresenter(SplashActivity activity) {
         this.activity = activity;
         handler = new Handler();
+    }
+
+    @Override
+    public void start() {
+
     }
 
     public void prepareData() {

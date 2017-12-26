@@ -17,12 +17,10 @@ import com.edwin.lib.widget.rect.RectRelativeLayout;
 import com.edwin.lib.widget.rect.RectUtils;
 
 /**
- * Copyright (C) 2017 The huimai TV client Project
- * All rights reserved.
+ * simple describe
  *
  * @author edwin
- * @describe 矩形RelativeLayout
- * @since 22/12/2017
+ * @since 26/12/2017
  */
 public class FocusRelativeLayout extends RectRelativeLayout implements Focus {
 

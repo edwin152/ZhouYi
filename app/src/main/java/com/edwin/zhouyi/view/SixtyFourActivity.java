@@ -11,14 +11,12 @@ import com.edwin.zhouyi.widget.DiagramSingle;
 
 import java.util.List;
 
-import static com.edwin.zhouyi.enums.Diagram8.QIAN;
-
 /**
- * <describe>
- * </describe>
- * Created by edwin on 2017/4/6.
+ * simple describe
+ *
+ * @author edwin
+ * @since 26/12/2017
  */
-
 public class SixtyFourActivity extends BaseActivity<SixtyFourPresenter> {
 
     private DiagramSingle ds_above;

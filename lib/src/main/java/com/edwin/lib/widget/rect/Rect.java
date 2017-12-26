@@ -3,12 +3,10 @@ package com.edwin.lib.widget.rect;
 import android.graphics.Color;
 
 /**
- * Copyright (C) 2017 The huimai TV client Project
- * All rights reserved.
+ * simple describe
  *
  * @author edwin
- * @describe 矩形
- * @since 22/12/2017
+ * @since 26/12/2017
  */
 public interface Rect {
     // 默认矩形圆角弧度

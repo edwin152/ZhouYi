@@ -6,12 +6,10 @@ import android.view.animation.ScaleAnimation;
 import com.edwin.lib.widget.rect.RectUtils;
 
 /**
- * Copyright (C) 2017 The huimai TV client Project
- * All rights reserved.
+ * simple describe
  *
  * @author edwin
- * @describe 焦点工具类
- * @since 22/12/2017
+ * @since 26/12/2017
  */
 public class FocusUtils extends RectUtils {
 

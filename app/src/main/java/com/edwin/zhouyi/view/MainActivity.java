@@ -1,15 +1,5 @@
 package com.edwin.zhouyi.view;
 
-/**
- * Copyright 2016 Beijing Xinwei, Inc. All rights reserved.
- * <p>
- * History:
- * ------------------------------------------------------------------------------
- * Date    	    |  Who  		|  What
- * 2017/3/19	| xuxiangyu 	| 	create the file
- */
-
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -19,10 +9,10 @@ import com.edwin.zhouyi.R;
 import com.edwin.zhouyi.presenter.MainPresenter;
 
 /**
- * simple description
- * detail description
+ * simple describe
  *
- * @author xuxiangyu create on 2017/3/19
+ * @author edwin
+ * @since 26/12/2017
  */
 public class MainActivity extends BaseActivity<MainPresenter> {
     @Override

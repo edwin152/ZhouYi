@@ -23,12 +23,10 @@ import android.widget.ImageView;
 import com.edwin.lib.R;
 
 /**
- * Copyright (C) 2017 The huimai TV client Project
- * All rights reserved.
+ * simple describe
  *
  * @author edwin
- * @describe 矩形ImageView
- * @since 22/12/2017
+ * @since 26/12/2017
  */
 @SuppressWarnings("deprecation")
 @SuppressLint("AppCompatCustomView")

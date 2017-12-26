@@ -5,12 +5,10 @@ import android.graphics.Color;
 import com.edwin.lib.widget.rect.Rect;
 
 /**
- * Copyright (C) 2017 The huimai TV client Project
- * All rights reserved.
+ * simple describe
  *
  * @author edwin
- * @describe 焦点
- * @since 22/12/2017
+ * @since 26/12/2017
  */
 public interface Focus extends Rect {
     // 默认焦点框宽度

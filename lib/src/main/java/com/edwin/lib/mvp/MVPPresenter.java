@@ -1,10 +1,10 @@
 package com.edwin.lib.mvp;
 
 /**
- * simple description
- * detail description
+ * simple describe
  *
- * @author xuxiangyu create on 2017/6/2
+ * @author edwin
+ * @since 26/12/2017
  */
 public abstract class MVPPresenter {
 

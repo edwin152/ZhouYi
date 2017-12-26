@@ -5,10 +5,10 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
 /**
- * simple description
- * detail description
+ * simple describe
  *
- * @author xuxiangyu create on 2017/6/2
+ * @author edwin
+ * @since 26/12/2017
  */
 public abstract class MVPActivity<P extends MVPPresenter> extends AppCompatActivity {
 

@@ -9,11 +9,11 @@ import com.edwin.zhouyi.R;
 import com.edwin.zhouyi.presenter.CongenitalGossipPresenter;
 
 /**
- * <describe>
- * </describe>
- * Created by edwin on 2017/3/25.
+ * simple describe
+ *
+ * @author edwin
+ * @since 26/12/2017
  */
-
 public class CongenitalGossipActivity extends BaseActivity<CongenitalGossipPresenter> {
 
     @Override

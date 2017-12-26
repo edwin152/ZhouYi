@@ -7,17 +7,22 @@ import com.edwin.zhouyi.view.DivinationActivity;
 import com.edwin.zhouyi.view.SixtyFourActivity;
 
 /**
- * <describe>
- * </describe>
- * Created by edwin on 2017/3/23.
+ * simple describe
+ *
+ * @author edwin
+ * @since 26/12/2017
  */
-
 public class DivinationPresenter extends BasePresenter {
 
     private DivinationActivity activity;
 
     public DivinationPresenter(DivinationActivity activity) {
         this.activity = activity;
+    }
+
+    @Override
+    public void start() {
+
     }
 
     public void divination(int _1, int _2, int _3) {
@@ -31,5 +36,4 @@ public class DivinationPresenter extends BasePresenter {
                 .putExtra("yao", yao));
         System.out.println("down : " + (down + 1) + ", up : " + (up + 1) + ", yao : " + (yao + 1));
     }
-
 }

@@ -3,10 +3,10 @@ package com.edwin.lib.cache.disk;
 import java.util.concurrent.Executor;
 
 /**
- * simple description
- * detail description
+ * simple describe
  *
- * @author xuxiangyu create on 2017/5/22
+ * @author edwin
+ * @since 26/12/2017
  */
 public abstract class AbstractTable<K, V> implements Table<K, V> {
 

@@ -1,11 +1,11 @@
 package com.edwin.zhouyi.enums;
 
 /**
- * <describe>
- * </describe>
- * Created by edwin on 2017/3/25.
+ * simple describe
+ *
+ * @author edwin
+ * @since 26/12/2017
  */
-
 public enum Diagram8 {
     //1
     QIAN,

@@ -1,8 +1,6 @@
 package com.edwin.zhouyi.presenter;
 
 import android.content.res.AssetManager;
-import android.os.Bundle;
-import android.support.annotation.Nullable;
 
 import com.edwin.zhouyi.view.SixtyFourActivity;
 
@@ -14,11 +12,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * <describe>
- * </describe>
- * Created by edwin on 2017/4/6.
+ * simple describe
+ *
+ * @author edwin
+ * @since 26/12/2017
  */
-
 public class SixtyFourPresenter extends BasePresenter {
 
     private SixtyFourActivity activity;
@@ -28,8 +26,7 @@ public class SixtyFourPresenter extends BasePresenter {
     }
 
     @Override
-    public void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    public void start() {
         List<String> list = getList();
         activity.setList(list);
         int yao = getYao();

@@ -1,17 +1,12 @@
 package com.edwin.lib.mvp;
 
 import android.app.Fragment;
-import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 
 /**
- * simple description
- * detail description
+ * simple describe
  *
- * @author xuxiangyu create on 2017/6/2
+ * @author edwin
+ * @since 26/12/2017
  */
 public abstract class MVPFragment<P extends MVPPresenter> extends Fragment {
 

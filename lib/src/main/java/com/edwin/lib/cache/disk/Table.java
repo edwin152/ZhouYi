@@ -5,10 +5,10 @@ import com.edwin.lib.cache.Cache;
 import java.util.List;
 
 /**
- * simple description
- * detail description
+ * simple describe
  *
- * @author xuxiangyu create on 2016/12/22
+ * @author edwin
+ * @since 26/12/2017
  */
 public interface Table<K, V> extends Cache {
 

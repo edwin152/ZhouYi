@@ -17,10 +17,10 @@ import com.edwin.zhouyi.R;
 import com.edwin.zhouyi.presenter.SplashPresenter;
 
 /**
- * simple description
- * detail description
+ * simple describe
  *
- * @author xuxiangyu create on 2017/3/19
+ * @author edwin
+ * @since 26/12/2017
  */
 public class SplashActivity extends BaseActivity<SplashPresenter> {
     @Override
@@ -32,6 +32,6 @@ public class SplashActivity extends BaseActivity<SplashPresenter> {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-        presenter.prepareData();
+        getPresenter().prepareData();
     }
 }

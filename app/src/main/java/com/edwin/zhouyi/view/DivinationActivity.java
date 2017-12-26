@@ -9,13 +9,12 @@ import android.widget.EditText;
 import com.edwin.zhouyi.R;
 import com.edwin.zhouyi.presenter.DivinationPresenter;
 
-
 /**
- * <describe>
- * </describe>
- * Created by edwin on 2017/3/23.
+ * simple describe
+ *
+ * @author edwin
+ * @since 26/12/2017
  */
-
 public class DivinationActivity extends BaseActivity<DivinationPresenter> {
 
     private EditText et_1;
@@ -49,7 +48,7 @@ public class DivinationActivity extends BaseActivity<DivinationPresenter> {
         int int_3 = Integer.parseInt(str_3);
         if (int_1 / 100 == 0 || int_2 / 100 == 0 || int_3 / 100 == 0)
             return;
-        presenter.divination(int_1, int_2, int_3);
+        getPresenter().divination(int_1, int_2, int_3);
     }
 
     public void random1(View v) {

@@ -1,15 +1,5 @@
 package com.edwin.zhouyi.widget;
 
-/**
- * Copyright 2016 Beijing Xinwei, Inc. All rights reserved.
- * <p>
- * History:
- * ------------------------------------------------------------------------------
- * Date    	    |  Who  		|  What
- * 2017/3/19	| xuxiangyu 	| 	create the file
- */
-
-
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.support.annotation.AttrRes;
@@ -24,10 +14,10 @@ import com.edwin.zhouyi.R;
 import com.edwin.zhouyi.enums.Diagram8;
 
 /**
- * simple description
- * detail description
+ * simple describe
  *
- * @author xuxiangyu create on 2017/3/19
+ * @author edwin
+ * @since 26/12/2017
  */
 public class DiagramSingle extends FrameLayout {
 

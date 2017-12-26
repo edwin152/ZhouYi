@@ -1,11 +1,11 @@
 package com.edwin.zhouyi.config;
 
 /**
- * <describe>
- * </describe>
- * Created by edwin on 2017/4/8.
+ * simple describe
+ *
+ * @author edwin
+ * @since 26/12/2017
  */
-
 public class Config64Gua {
 
     public static final int[][] _64 = new int[][]{

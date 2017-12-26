@@ -12,12 +12,10 @@ import android.support.annotation.Nullable;
 import android.widget.ImageView;
 
 /**
- * Copyright (C) 2017 The huimai TV client Project
- * All rights reserved.
+ * simple describe
  *
  * @author edwin
- * @describe 矩形工具类
- * @since 22/12/2017
+ * @since 26/12/2017
  */
 public class RectUtils {
 

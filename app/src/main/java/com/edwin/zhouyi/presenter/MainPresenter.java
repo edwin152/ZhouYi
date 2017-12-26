@@ -1,22 +1,12 @@
 package com.edwin.zhouyi.presenter;
 
-/**
- * Copyright 2016 Beijing Xinwei, Inc. All rights reserved.
- * <p>
- * History:
- * ------------------------------------------------------------------------------
- * Date    	    |  Who  		|  What
- * 2017/3/19	| xuxiangyu 	| 	create the file
- */
-
-
 import com.edwin.zhouyi.view.MainActivity;
 
 /**
- * simple description
- * detail description
+ * simple describe
  *
- * @author xuxiangyu create on 2017/3/19
+ * @author edwin
+ * @since 26/12/2017
  */
 public class MainPresenter extends BasePresenter {
 
@@ -24,5 +14,10 @@ public class MainPresenter extends BasePresenter {
 
     public MainPresenter(MainActivity activity) {
         this.activity = activity;
+    }
+
+    @Override
+    public void start() {
+
     }
 }

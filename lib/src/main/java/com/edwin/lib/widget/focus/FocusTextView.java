@@ -17,12 +17,10 @@ import com.edwin.lib.widget.rect.RectTextView;
 import com.edwin.lib.widget.rect.RectUtils;
 
 /**
- * Copyright (C) 2017 The huimai TV client Project
- * All rights reserved.
+ * simple describe
  *
  * @author edwin
- * @describe 矩形TextView
- * @since 22/12/2017
+ * @since 26/12/2017
  */
 @SuppressLint("AppCompatCustomView")
 public class FocusTextView extends RectTextView implements Focus {

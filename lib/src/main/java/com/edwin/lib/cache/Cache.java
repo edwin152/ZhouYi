@@ -1,10 +1,10 @@
 package com.edwin.lib.cache;
 
 /**
- * simple description
- * detail description
+ * simple describe
  *
- * @author xuxiangyu create on 2017/5/22
+ * @author edwin
+ * @since 26/12/2017
  */
 public interface Cache {
 }

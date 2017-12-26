@@ -17,12 +17,10 @@ import android.widget.LinearLayout;
 import com.edwin.lib.R;
 
 /**
- * Copyright (C) 2017 The huimai TV client Project
- * All rights reserved.
+ * simple describe
  *
  * @author edwin
- * @describe 矩形LinearLayout
- * @since 22/12/2017
+ * @since 26/12/2017
  */
 @SuppressLint("AppCompatCustomView")
 public class RectLinearLayout extends LinearLayout implements Rect {

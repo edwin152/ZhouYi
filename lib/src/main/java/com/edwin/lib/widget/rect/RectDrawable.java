@@ -17,12 +17,10 @@ import android.support.annotation.NonNull;
 import android.widget.ImageView;
 
 /**
- * Copyright (C) 2017 The huimai TV client Project
- * All rights reserved.
+ * simple describe
  *
  * @author edwin
- * @describe 矩形drawable，通过重写Drawable的方法，实现矩形控件，比重写View更轻便好用
- * @since 22/12/2017
+ * @since 26/12/2017
  */
 public class RectDrawable extends Drawable {
 
