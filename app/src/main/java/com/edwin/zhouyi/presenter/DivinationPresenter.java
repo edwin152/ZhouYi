@@ -2,6 +2,7 @@ package com.edwin.zhouyi.presenter;
 
 import android.content.Intent;
 
+import com.edwin.lib.mvp.MVPPresenter;
 import com.edwin.zhouyi.config.Config64Gua;
 import com.edwin.zhouyi.view.DivinationActivity;
 import com.edwin.zhouyi.view.SixtyFourActivity;
@@ -12,7 +13,7 @@ import com.edwin.zhouyi.view.SixtyFourActivity;
  * @author edwin
  * @since 26/12/2017
  */
-public class DivinationPresenter extends BasePresenter {
+public class DivinationPresenter extends MVPPresenter {
 
     private DivinationActivity activity;
 

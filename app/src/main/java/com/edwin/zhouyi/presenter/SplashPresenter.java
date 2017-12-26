@@ -3,6 +3,7 @@ package com.edwin.zhouyi.presenter;
 import android.content.Intent;
 import android.os.Handler;
 
+import com.edwin.lib.mvp.MVPPresenter;
 import com.edwin.zhouyi.view.MainActivity;
 import com.edwin.zhouyi.view.SplashActivity;
 
@@ -12,7 +13,7 @@ import com.edwin.zhouyi.view.SplashActivity;
  * @author edwin
  * @since 26/12/2017
  */
-public class SplashPresenter extends BasePresenter {
+public class SplashPresenter extends MVPPresenter {
 
     private static final long WAIT_TIME = 0;
 

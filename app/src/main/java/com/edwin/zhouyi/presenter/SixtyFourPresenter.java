@@ -2,6 +2,7 @@ package com.edwin.zhouyi.presenter;
 
 import android.content.res.AssetManager;
 
+import com.edwin.lib.mvp.MVPPresenter;
 import com.edwin.zhouyi.view.SixtyFourActivity;
 
 import java.io.BufferedReader;
@@ -17,7 +18,7 @@ import java.util.List;
  * @author edwin
  * @since 26/12/2017
  */
-public class SixtyFourPresenter extends BasePresenter {
+public class SixtyFourPresenter extends MVPPresenter {
 
     private SixtyFourActivity activity;
 

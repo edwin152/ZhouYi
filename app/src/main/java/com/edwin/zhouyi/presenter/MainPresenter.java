@@ -1,5 +1,6 @@
 package com.edwin.zhouyi.presenter;
 
+import com.edwin.lib.mvp.MVPPresenter;
 import com.edwin.zhouyi.view.MainActivity;
 
 /**
@@ -8,7 +9,7 @@ import com.edwin.zhouyi.view.MainActivity;
  * @author edwin
  * @since 26/12/2017
  */
-public class MainPresenter extends BasePresenter {
+public class MainPresenter extends MVPPresenter {
 
     private MainActivity activity;
 

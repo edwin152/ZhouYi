@@ -5,6 +5,7 @@ import android.support.annotation.Nullable;
 import android.view.View;
 import android.widget.Toast;
 
+import com.edwin.lib.mvp.MVPActivity;
 import com.edwin.zhouyi.R;
 import com.edwin.zhouyi.presenter.CongenitalGossipPresenter;
 
@@ -14,7 +15,7 @@ import com.edwin.zhouyi.presenter.CongenitalGossipPresenter;
  * @author edwin
  * @since 26/12/2017
  */
-public class CongenitalGossipActivity extends BaseActivity<CongenitalGossipPresenter> {
+public class CongenitalGossipActivity extends MVPActivity<CongenitalGossipPresenter> {
 
     @Override
     protected CongenitalGossipPresenter newPresenter() {

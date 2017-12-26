@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.widget.TextView;
 
+import com.edwin.lib.mvp.MVPActivity;
 import com.edwin.zhouyi.R;
 import com.edwin.zhouyi.enums.Diagram8;
 import com.edwin.zhouyi.presenter.SixtyFourPresenter;
@@ -17,7 +18,7 @@ import java.util.List;
  * @author edwin
  * @since 26/12/2017
  */
-public class SixtyFourActivity extends BaseActivity<SixtyFourPresenter> {
+public class SixtyFourActivity extends MVPActivity<SixtyFourPresenter> {
 
     private DiagramSingle ds_above;
     private DiagramSingle ds_below;
@@ -46,24 +47,24 @@ public class SixtyFourActivity extends BaseActivity<SixtyFourPresenter> {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         setContentView(R.layout.activity_sixty_four);
-        ds_above = (DiagramSingle) findViewById(R.id.above);
-        ds_below = (DiagramSingle) findViewById(R.id.below);
-        tv_mainTitle = (TextView) findViewById(R.id.main_title);
-        tv_mainTitleDescribe = (TextView) findViewById(R.id.main_title_describe);
-        tv_mainTitleDescribeXiang = (TextView) findViewById(R.id.main_title_describe_xiang);
-        tv_firstDescribe = (TextView) findViewById(R.id.first_describe);
-        tv_firstDescribeXiang = (TextView) findViewById(R.id.first_describe_xiang);
-        tv_secondDescribe = (TextView) findViewById(R.id.second_describe);
-        tv_secondDescribeXiang = (TextView) findViewById(R.id.second_describe_xiang);
-        tv_thirdDescribe = (TextView) findViewById(R.id.third_describe);
-        tv_thirdDescribeXiang = (TextView) findViewById(R.id.third_describe_xiang);
-        tv_fourthDescribe = (TextView) findViewById(R.id.fourth_describe);
-        tv_fourthDescribeXiang = (TextView) findViewById(R.id.fourth_describe_xiang);
-        tv_fifthDescribe = (TextView) findViewById(R.id.fifth_describe);
-        tv_fifthDescribeXiang = (TextView) findViewById(R.id.fifth_describe_xiang);
-        tv_sixthDescribe = (TextView) findViewById(R.id.sixth_describe);
-        tv_sixthDescribeXiang = (TextView) findViewById(R.id.sixth_describe_xiang);
-        tv_yao = (TextView) findViewById(R.id.yao);
+        ds_above = findViewById(R.id.above);
+        ds_below = findViewById(R.id.below);
+        tv_mainTitle = findViewById(R.id.main_title);
+        tv_mainTitleDescribe = findViewById(R.id.main_title_describe);
+        tv_mainTitleDescribeXiang = findViewById(R.id.main_title_describe_xiang);
+        tv_firstDescribe = findViewById(R.id.first_describe);
+        tv_firstDescribeXiang = findViewById(R.id.first_describe_xiang);
+        tv_secondDescribe = findViewById(R.id.second_describe);
+        tv_secondDescribeXiang = findViewById(R.id.second_describe_xiang);
+        tv_thirdDescribe = findViewById(R.id.third_describe);
+        tv_thirdDescribeXiang = findViewById(R.id.third_describe_xiang);
+        tv_fourthDescribe = findViewById(R.id.fourth_describe);
+        tv_fourthDescribeXiang = findViewById(R.id.fourth_describe_xiang);
+        tv_fifthDescribe = findViewById(R.id.fifth_describe);
+        tv_fifthDescribeXiang = findViewById(R.id.fifth_describe_xiang);
+        tv_sixthDescribe = findViewById(R.id.sixth_describe);
+        tv_sixthDescribeXiang = findViewById(R.id.sixth_describe_xiang);
+        tv_yao = findViewById(R.id.yao);
         super.onCreate(savedInstanceState);
     }
 

@@ -13,6 +13,7 @@ package com.edwin.zhouyi.view;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 
+import com.edwin.lib.mvp.MVPActivity;
 import com.edwin.zhouyi.R;
 import com.edwin.zhouyi.presenter.SplashPresenter;
 
@@ -22,7 +23,7 @@ import com.edwin.zhouyi.presenter.SplashPresenter;
  * @author edwin
  * @since 26/12/2017
  */
-public class SplashActivity extends BaseActivity<SplashPresenter> {
+public class SplashActivity extends MVPActivity<SplashPresenter> {
     @Override
     protected SplashPresenter newPresenter() {
         return new SplashPresenter(this);

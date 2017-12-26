@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.View;
 
+import com.edwin.lib.mvp.MVPActivity;
 import com.edwin.zhouyi.R;
 import com.edwin.zhouyi.presenter.MainPresenter;
 
@@ -14,7 +15,7 @@ import com.edwin.zhouyi.presenter.MainPresenter;
  * @author edwin
  * @since 26/12/2017
  */
-public class MainActivity extends BaseActivity<MainPresenter> {
+public class MainActivity extends MVPActivity<MainPresenter> {
     @Override
     protected MainPresenter newPresenter() {
         return new MainPresenter(this);

@@ -6,6 +6,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
 
+import com.edwin.lib.mvp.MVPActivity;
 import com.edwin.zhouyi.R;
 import com.edwin.zhouyi.presenter.DivinationPresenter;
 
@@ -15,7 +16,7 @@ import com.edwin.zhouyi.presenter.DivinationPresenter;
  * @author edwin
  * @since 26/12/2017
  */
-public class DivinationActivity extends BaseActivity<DivinationPresenter> {
+public class DivinationActivity extends MVPActivity<DivinationPresenter> {
 
     private EditText et_1;
     private EditText et_2;
@@ -30,9 +31,9 @@ public class DivinationActivity extends BaseActivity<DivinationPresenter> {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_divination);
-        et_1 = (EditText) findViewById(R.id._1);
-        et_2 = (EditText) findViewById(R.id._2);
-        et_3 = (EditText) findViewById(R.id._3);
+        et_1 = findViewById(R.id._1);
+        et_2 = findViewById(R.id._2);
+        et_3 = findViewById(R.id._3);
     }
 
     public void divination(View v) {
