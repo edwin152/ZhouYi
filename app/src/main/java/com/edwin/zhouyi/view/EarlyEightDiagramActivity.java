@@ -25,7 +25,7 @@ public class EarlyEightDiagramActivity extends MVPActivity<EarlyEightDiagramPres
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_congenital_gossip);
+        setContentView(R.layout.activity_eight_early_diagram);
     }
 
     public void qianClick(View v) {

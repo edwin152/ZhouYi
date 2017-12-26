@@ -37,7 +37,7 @@ public class DiagramView extends FrameLayout {
 
     public DiagramView(@NonNull Context context, @Nullable AttributeSet attrs, @AttrRes int defStyleAttr) {
         super(context, attrs, defStyleAttr);
-        View.inflate(context, R.layout.view_diagram_single, this);
+        View.inflate(context, R.layout.widget_diagram, this);
         iv_top = findViewById(R.id.top);
         iv_middle = findViewById(R.id.middle);
         iv_bottom = findViewById(R.id.bottom);

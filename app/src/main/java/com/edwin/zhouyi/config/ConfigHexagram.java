@@ -6,9 +6,9 @@ package com.edwin.zhouyi.config;
  * @author edwin
  * @since 26/12/2017
  */
-public class Config64Gua {
+public class ConfigHexagram {
 
-    public static final int[][] _64 = new int[][]{
+    public static final int[][] HEXAGRAM = new int[][]{
             new int[]{1, 43, 14, 34, 9, 5, 26, 11}
             , new int[]{10, 58, 38, 54, 61, 60, 41, 19}
             , new int[]{13, 49, 30, 55, 37, 63, 22, 36}

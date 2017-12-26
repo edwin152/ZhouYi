@@ -46,7 +46,7 @@ public class HexagramWordsActivity extends MVPActivity<HexagramWordsPresenter> {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
-        setContentView(R.layout.activity_sixty_four);
+        setContentView(R.layout.activity_hexagram_words);
         ds_above = findViewById(R.id.above);
         ds_below = findViewById(R.id.below);
         tv_mainTitle = findViewById(R.id.main_title);
