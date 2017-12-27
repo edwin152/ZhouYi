@@ -94,7 +94,7 @@ public class FocusImageView extends RectImageView implements Focus {
     }
 
     public void setFocusStrokeWidth(int focusStrokeWidth) {
-        this.mFocusStrokeWidth = mFocusStrokeWidth;
+        this.mFocusStrokeWidth = focusStrokeWidth;
     }
 
     public int getFocusStrokeColor() {
@@ -102,7 +102,7 @@ public class FocusImageView extends RectImageView implements Focus {
     }
 
     public void setFocusStrokeColor(int focusStrokeColor) {
-        this.mFocusStrokeColor = mFocusStrokeColor;
+        this.mFocusStrokeColor = focusStrokeColor;
     }
 
     public float getFocusScaleRate() {
@@ -110,7 +110,7 @@ public class FocusImageView extends RectImageView implements Focus {
     }
 
     public void setFocusScaleRate(float focusScaleRate) {
-        this.mFocusScaleRate = mFocusScaleRate;
+        this.mFocusScaleRate = focusScaleRate;
     }
 
     public boolean isFocusFrontAfterFocus() {
@@ -118,6 +118,6 @@ public class FocusImageView extends RectImageView implements Focus {
     }
 
     public void setFocusFrontAfterFocus(boolean focusFrontAfterFocus) {
-        this.mFocusFrontAfterFocus = mFocusFrontAfterFocus;
+        this.mFocusFrontAfterFocus = focusFrontAfterFocus;
     }
 }

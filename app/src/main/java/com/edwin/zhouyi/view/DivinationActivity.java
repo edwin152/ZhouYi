@@ -69,8 +69,9 @@ public class DivinationActivity extends MVPActivity<DivinationPresenter> {
         while (true) {
             int num = (int) (time % 1000);
             time = time / 10;
-            if (num / 100 != 0)
+            if (num / 100 != 0) {
                 return num;
+            }
         }
     }
 }

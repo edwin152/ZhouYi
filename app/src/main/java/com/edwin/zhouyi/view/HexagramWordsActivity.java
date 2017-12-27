@@ -7,6 +7,7 @@ import android.widget.TextView;
 import com.edwin.lib.mvp.MVPActivity;
 import com.edwin.zhouyi.R;
 import com.edwin.zhouyi.enums.Diagram;
+import com.edwin.zhouyi.model.HexagramWords;
 import com.edwin.zhouyi.presenter.HexagramWordsPresenter;
 import com.edwin.zhouyi.widget.DiagramView;
 
@@ -90,6 +91,10 @@ public class HexagramWordsActivity extends MVPActivity<HexagramWordsPresenter> {
         tv_fifthDescribeXiang.setText(list.get(14));
         tv_sixthDescribe.setText(list.get(15));
         tv_sixthDescribeXiang.setText(list.get(16));
+    }
+
+    public void setData(HexagramWords hexagramWords) {
+
     }
 
     public void setYao(Integer num) {
