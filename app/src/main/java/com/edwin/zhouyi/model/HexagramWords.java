@@ -15,7 +15,7 @@ public class HexagramWords {
     private Diagram downDiagram;
     private String title;
     private String describe;
-    private Words total;
+    private Words main;
     private Words first;
     private Words second;
     private Words third;
@@ -67,12 +67,12 @@ public class HexagramWords {
         this.describe = describe;
     }
 
-    public Words getTotal() {
-        return total;
+    public Words getMain() {
+        return main;
     }
 
-    public void setTotal(Words total) {
-        this.total = total;
+    public void setMain(Words main) {
+        this.main = main;
     }
 
     public Words getFirst() {

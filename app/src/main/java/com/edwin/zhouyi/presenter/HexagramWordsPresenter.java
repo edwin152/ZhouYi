@@ -23,9 +23,8 @@ public class HexagramWordsPresenter extends MVPPresenter {
     public void start() {
         int startNum = activity.getIntent().getIntExtra("num", -1);
         HexagramWords hexagramWords = CacheFactory.getHexagramCache().get(startNum);
+        activity.setData(hexagramWords);
     }
-
-//        Integer startNum = activity.getIntent().getIntExtra("num", -1);
 
     private int getYao() {
         return activity.getIntent().getIntExtra("yao", -1) + 1;

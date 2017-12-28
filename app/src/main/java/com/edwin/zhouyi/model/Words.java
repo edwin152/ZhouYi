@@ -30,6 +30,10 @@ public class Words {
     private String words;
     private String explainWords;
 
+    public Words(int number, String words, String explainWords) {
+        this(number, false, words, explainWords);
+    }
+
     public Words(int number, boolean yang, String words, String explainWords) {
         if (number != NUMBER_FIRST
                 && number != NUMBER_SECOND

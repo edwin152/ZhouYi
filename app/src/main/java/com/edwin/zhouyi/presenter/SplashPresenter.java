@@ -61,6 +61,6 @@ public class SplashPresenter extends MVPPresenter {
 
     private void prepareInBackground() {
         HexagramCache cache = CacheFactory.getHexagramCache();
-        cache.init();
+        cache.init(activity);
     }
 }

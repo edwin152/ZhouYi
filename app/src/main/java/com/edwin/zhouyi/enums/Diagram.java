@@ -43,9 +43,33 @@ public enum Diagram {
             case "艮":
                 return GEN;
             case "坤":
-                return XUN;
+                return KUN;
             default:
                 return null;
+        }
+    }
+
+    @Override
+    public String toString() {
+        switch (this) {
+            case QIAN:
+                return "乾";
+            case DUI:
+                return "兑";
+            case LI:
+                return "离";
+            case ZHEN:
+                return "震";
+            case XUN:
+                return "巽";
+            case KAN:
+                return "坎";
+            case GEN:
+                return "艮";
+            case KUN:
+                return "坤";
+            default:
+                return super.toString();
         }
     }
 }
